@@ -1,12 +1,12 @@
-
+import {BrowserRouter} from 'react-router-dom'
 import './App.css';
 import AppWeather from './components/appWeather';
-import Message from './components/appWeather';
 function App() {
   return (
-    <div className="App">
-      <AppWeather/>
-       </div>
+   <BrowserRouter>
+    <AppWeather/>  
+   </BrowserRouter>
+     
   );
 }
 
